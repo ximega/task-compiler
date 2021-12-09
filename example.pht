@@ -1,0 +1,16 @@
+name 'task1';
+
+define {
+    a = 1
+    b = 2
+    c = 3
+};
+
+find {
+    sum = a + b
+    mult = sum * a * c
+    res = sum ** 2 + mult
+    res_ = mult
+};
+
+response res_;
