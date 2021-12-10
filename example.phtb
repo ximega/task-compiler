@@ -1,9 +1,5 @@
 name = 'task1'
-'task1': a = 1
-'task1': b = 2
-'task1': c = 3
-'task1': sum = a + b
-'task1': mult = sum * a * c
-'task1': res = sum ** 2 + mult
-'task1': res_ = mult
-'task1': print  res_
+'task1': x1 = 4
+'task1': x2 = 5
+'task1': res = (10 - 5) / 2
+'task1': print res

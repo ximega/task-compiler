@@ -1,16 +1,10 @@
 name 'task1';
 
 define {
-    a = 1
-    b = 2
-    c = 3
+    x1: 4
+    x2: 5
 };
 
-find {
-    sum = a + b
-    mult = sum * a * c
-    res = sum ** 2 + mult
-    res_ = mult
-};
+mode [ -central-point %% x2 ] as(res);
 
 response res_;
