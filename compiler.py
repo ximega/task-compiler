@@ -3,7 +3,7 @@ from core import Formulas, Keywords, ModsF
 
 
 def replace_all(str_):
-    return re.sub("sin", "math.sin", re.sub("cos", "math.cos", re.sub("ctan", "cotan", re.sub("tg", "math.tan", re.sub("PI", "3.14", str_)))))
+    return re.sub("sin", "math.sin", re.sub("cos", "math.cos", re.sub("ctan", "cotan", re.sub("tg", "math.tan", re.sub("PI", "math.PI", str_)))))
 
 def compile_pht_p(file_name):
     file = open(file_name.replace("./", "")).read()
