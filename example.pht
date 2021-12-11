@@ -1,10 +1,11 @@
 name 'task1';
 
 define {
-    x1: 4
-    x2: 5
+    alpha: 2 * PI / 3
 };
 
-mode [ -central-point %% x2 ] as(res);
+findf {
+    res: -to-angle
+};
 
-response res_;
+response res;

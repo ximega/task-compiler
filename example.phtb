@@ -1,5 +1,4 @@
 name = 'task1'
-'task1': x1 = 4
-'task1': x2 = 5
-'task1': res = (10 - 5) / 2
+'task1': alpha = 2 * 3.14 / 3
+'task1': res = round(180 / 3.14 * alpha)
 'task1': print res
